@@ -6,7 +6,7 @@
          It should be FQN.
          It cannot be changed between the plugin versions. -->
     <id>me.alexjs.theme.darcula-liquid</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
