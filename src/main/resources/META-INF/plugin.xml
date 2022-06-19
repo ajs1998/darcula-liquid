@@ -1,9 +1,12 @@
 <!-- Plugin Configuration File.
-Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+     Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>darcula-liquid</id>
-    <version>1.0.1</version>
+
+    <!-- Unique identifier of the plugin.
+         It should be FQN.
+         It cannot be changed between the plugin versions. -->
+    <id>me.alexjs.theme.darcula-liquid</id>
+    <version>1.2.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -13,8 +16,6 @@ Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="ajs1998@gmail.com" url="https://github.com/ajs1998/darcula-liquid">Darcula Liquid</vendor>
 
-    <idea-version since-build="212"/>
-
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
@@ -23,24 +24,16 @@ Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file
             <h1>Darcula Liquid Theme</h1>
             This theme is a fork of
             <a href="https://plugins.jetbrains.com/plugin/13920-darcula-solid-theme">Darcula Solid Theme</a>
-            by Vecheslav Druzhbin
         ]]>
     </description>
-
-    <!-- Short summary of new features and bugfixes in the latest plugin version.
-         Displayed on the Plugin Page and IDE Plugin Manager.
-         Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
-    <change-notes>
-        <![CDATA[
-            Initial release of the theme
-        ]]>
-    </change-notes>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="darcula-liquid" path="/theme/darculaliquid.theme.json"/>
+        <themeProvider id="25c0e9f2-1059-4bae-a305-47f039ac09d1" path="/darcula_liquid.theme.json"/>
     </extensions>
 </idea-plugin>
