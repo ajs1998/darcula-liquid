@@ -1,4 +1,4 @@
-<scheme name="Darcula Liquid" version="142">
+<scheme name="Darcula Liquid" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="created">2022-06-19T15:14:05</property>
         <property name="ide">idea</property>
@@ -10,19 +10,6 @@
         <option name="CARET_COLOR" value="f7f7f7"/>
         <option name="CARET_ROW_COLOR" value="323335"/>
         <option name="CONSOLE_BACKGROUND_KEY" value="232425"/>
-        <option name="FILESTATUS_ADDED" value="629755"/>
-        <option name="FILESTATUS_COPIED" value="629755"/>
-        <option name="FILESTATUS_DELETED" value="6c6c6c"/>
-        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c"/>
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="848504"/>
-        <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038"/>
-        <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238"/>
-        <option name="FILESTATUS_IDEA_SVN_REPLACED" value="629755"/>
-        <option name="FILESTATUS_MODIFIED" value="6897bb"/>
-        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="6897bb"/>
-        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="6897bb"/>
-        <option name="FILESTATUS_addedOutside" value="629755"/>
-        <option name="FILESTATUS_modifiedOutside" value="6897bb"/>
         <option name="GUTTER_BACKGROUND" value="232425"/>
         <option name="SELECTED_INDENT_GUIDE" value="464646"/>
         <option name="SELECTED_TEARLINE_COLOR" value="5e6063"/>
@@ -69,6 +56,7 @@
                 <option name="FOREGROUND" value="81cae6"/>
             </value>
         </option>
+        <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT"/>
         <option name="DEFAULT_INSTANCE_FIELD">
             <value>
                 <option name="FOREGROUND" value="d6aaea"/>
@@ -102,6 +90,8 @@
                 <option name="FOREGROUND" value="ff9c68"/>
             </value>
         </option>
+        <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE"/>
+        <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="DEFAULT_PARAMETER"/>
         <option name="DEFAULT_SEMICOLON">
             <value>
                 <option name="FOREGROUND" value="c4622e"/>
@@ -148,6 +138,7 @@
                 <option name="BACKGROUND" value="272829"/>
             </value>
         </option>
+        <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD"/>
         <option name="NOT_USED_ELEMENT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="979797"/>
