@@ -21,12 +21,15 @@
     <description>
         <![CDATA[
             <h1>Darcula Liquid Theme</h1>
+            <br/><br/>
+
             This theme is a fork of
             <a href="https://plugins.jetbrains.com/plugin/13920-darcula-solid-theme">Darcula Solid Theme</a>
+            <br/><br/>
 
-            <img src="https://raw.githubusercontent.com/ajs1998/darcula-liquid/master/src/main/resources/screenshots/screenshot1.png" border="0" width="700" alt="Main window screenshot">
+            <img src="https://raw.githubusercontent.com/ajs1998/darcula-liquid/master/src/main/resources/screenshots/screenshot1.png" border="0" width="700" alt="Code screenshot">
             <br/>
-            <img src="https://raw.githubusercontent.com/ajs1998/darcula-liquid/master/src/main/resources/screenshots/screenshot1.png" border="0" width="700" alt="Settings screenshot">
+            <img src="https://raw.githubusercontent.com/ajs1998/darcula-liquid/master/src/main/resources/screenshots/screenshot2.png" border="0" width="700" alt="Full window screenshot">
         ]]>
     </description>
 
