@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "me.alexjs.theme"
-version = "1.0"
+version = "1.1"
 
 repositories {
     mavenCentral()
@@ -12,20 +12,13 @@ repositories {
 
 // Configure Gradle IntelliJ Plugin - read more: https://github.com/JetBrains/gradle-intellij-plugin
 intellij {
-    version.set("2022.1.1")
+    version.set("2022.1.2")
     plugins.set(listOf(/* Plugin Dependencies */))
 }
 
 tasks {
-    // Set the JVM compatibility versions
-//    withType<JavaCompile> {
-//        sourceCompatibility = "11"
-//        targetCompatibility = "11"
-//    }
-
     patchPluginXml {
-        sinceBuild.set("212")
-        untilBuild.set("222.*")
+        sinceBuild.set("211")
     }
 
     signPlugin {
