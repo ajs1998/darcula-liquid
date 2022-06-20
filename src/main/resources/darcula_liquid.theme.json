@@ -5,13 +5,13 @@
     "editorScheme": "/Darcula_Liquid.xml",
     "ui": {
         "*": {
-            "background": "#252526",
-            "disabledBackground": "#252526",
+            "background": "#262626",
+            "disabledBackground": "#262626",
             "inactiveBackground": "#323335",
             "selectionBackground": "#313234",
             "selectionInactiveBackground": "#313234",
             "lightSelectionBackground": "#353638",
-            "lightSelectionInactiveBackground": "#252526",
+            "lightSelectionInactiveBackground": "#262626",
             "borderColor": "#3d3e40",
             "disabledBorderColor": "#3d3e40",
             "separatorForeground": "#3d3e40",
@@ -69,7 +69,7 @@
         },
         "ToolWindow": {
             "Header": {
-                "inactiveBackground": "#252526"
+                "inactiveBackground": "#262626"
             },
             "HeaderTab": {
                 "underlinedTabBackground": "#313234"
@@ -133,7 +133,7 @@
             "Checkbox.Border.Default.Dark": "#3d3e40",
             "Checkbox.Focus.Wide.Dark": "#2651a2",
             "Checkbox.Background.Disabled.Dark": "#1f1f1f",
-            "Checkbox.Border.Disabled.Dark": "#252526"
+            "Checkbox.Border.Disabled.Dark": "#262626"
         }
     }
 }
