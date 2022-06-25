@@ -19,6 +19,7 @@ intellij {
 tasks {
     patchPluginXml {
         sinceBuild.set("211")
+        untilBuild.set("222.*")
     }
 
     signPlugin {
