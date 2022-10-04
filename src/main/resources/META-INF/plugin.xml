@@ -25,13 +25,23 @@
 
             This theme is a fork of
             <a href="https://plugins.jetbrains.com/plugin/13920-darcula-solid-theme">Darcula Solid Theme</a>
-            and uses <a href="https://www.ibm.com/design/language/color/#blue-at-the-core">IBM's Color Palette</a> for
-            the editor color scheme
+            and uses <a href="https://www.ibm.com/design/language/color/#blue-at-the-core">IBM's Color Palette</a> as
+            inspiration for the editor color scheme
             <br/><br/>
 
-            <img src="https://raw.githubusercontent.com/ajs1998/darcula-liquid/main/src/main/resources/screenshots/screenshot1.png" border="0" width="700" alt="Full window screenshot">
+            <img src="https://raw.githubusercontent.com/ajs1998/darcula-liquid/main/src/main/resources/screenshots/old-ui1.png" border="0" width="700" alt="Full window screenshot">
             <br/>
-            <img src="https://raw.githubusercontent.com/ajs1998/darcula-liquid/main/src/main/resources/screenshots/screenshot2.png" border="0" width="700" alt="Code screenshot with Finder">
+            <img src="https://raw.githubusercontent.com/ajs1998/darcula-liquid/main/src/main/resources/screenshots/old-ui2.png" border="0" width="700" alt="Code screenshot with Finder">
+            <br/><br/>
+
+            Here are some images of the theme and color scheme with IntelliJ's
+            <a href="https://blog.jetbrains.com/idea/2022/09/intellij-idea-2022-3-eap/#New_IntelliJ_IDEA_UI_available_via_a_setting">new UI Preview</a>
+            currently available in 2022.3 EAP:
+            <br/><br/>
+
+            <img src="https://raw.githubusercontent.com/ajs1998/darcula-liquid/main/src/main/resources/screenshots/new-ui1.png" border="0" width="700" alt="Full window screenshot in new UI">
+            <br/>
+            <img src="https://raw.githubusercontent.com/ajs1998/darcula-liquid/main/src/main/resources/screenshots/new-ui2.png" border="0" width="700" alt="Code screenshot with Finder in new UI">
         ]]>
     </description>
 
