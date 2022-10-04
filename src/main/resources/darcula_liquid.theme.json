@@ -124,7 +124,13 @@
             "FileHistory.Commit.selectedBranchBackground": "#252c40"
         },
         "FileColor": {
-            "Yellow": "#302E2D"
+            "Rose": "#332227",
+            "Orange": "#31251e",
+            "Yellow": "#2c2d24",
+            "Green": "#253326",
+            "Blue": "#1e3236",
+            "Violet": "#251f3a",
+            "Gray": "#343434"
         }
     },
     "icons": {
