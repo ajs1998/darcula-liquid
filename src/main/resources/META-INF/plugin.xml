@@ -52,6 +52,6 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="25c0e9f2-1059-4bae-a305-47f039ac09d1" path="/darcula_liquid.theme.json"/>
+        <themeProvider id="25c0e9f2-1059-4bae-a305-47f039ac09d1" path="/dark_liquid.theme.json"/>
     </extensions>
 </idea-plugin>
