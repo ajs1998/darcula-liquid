@@ -1,10 +1,10 @@
 plugins {
     id("java")
-    id("org.jetbrains.intellij") version "1.5.2"
+    id("org.jetbrains.intellij") version "1.14.1"
 }
 
 group = "me.alexjs.theme"
-version = "2.6"
+version = "2.8"
 
 repositories {
     mavenCentral()
@@ -12,14 +12,15 @@ repositories {
 
 // Configure Gradle IntelliJ Plugin - read more: https://github.com/JetBrains/gradle-intellij-plugin
 intellij {
-    version.set("2022.2.2")
+    version.set("2023.1.3")
     plugins.set(listOf(/* Plugin Dependencies */))
 }
 
 tasks {
     patchPluginXml {
+        // https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html#intellij-platform-based-products-of-recent-ide-versions
         sinceBuild.set("211")
-        untilBuild.set("223.*")
+        untilBuild.set("232.*")
     }
 
     signPlugin {
@@ -30,5 +31,10 @@ tasks {
 
     publishPlugin {
         token.set(System.getenv("PUBLISH_TOKEN"))
+    }
+
+    wrapper {
+        gradleVersion = "8.2"
+        distributionType = Wrapper.DistributionType.ALL
     }
 }
