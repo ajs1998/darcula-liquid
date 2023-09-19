@@ -1,9 +1,14 @@
-<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 200 L50 100 Q100 0 150 100 L200 200" stroke="url(#paint0_linear)" stroke-width="20" fill="none"/>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,100 Q25,50 50,100 Q75,50 100,100 Q125,50 150,100 Q175,50 200,100 L200,0 L0,0 Z"
+          fill="url(#paint0_linear)"/>
     <defs>
-        <linearGradient id="paint0_linear" x1="0" y1="200" x2="200" y2="0" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#1e90ff"/>
-            <stop offset="1" stop-color="#8a2be2"/>
+        <linearGradient id="paint0_linear" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#a182e8"/>
+            <stop offset="0.2" stop-color="#025385"/>
+            <stop offset="0.4" stop-color="#172347"/>
+            <stop offset="0.6" stop-color="#015268"/>
+            <stop offset="0.8" stop-color="#0ef3c5"/>
+            <stop offset="1" stop-color="#038298"/>
         </linearGradient>
     </defs>
 </svg>
