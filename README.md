@@ -2,6 +2,11 @@
 
 A fork of [Darcula Solid](https://github.com/vecheslav/darcula-solid) with a lovely color scheme
 
+This has been replaced by a new theme called [Dark Matter](https://github.com/ajs1998/dark-matter).
+Dark Matter only modifies the editor scheme and no changes to the default Dark UI are made.
+
+Darcula Liquid is no longer being maintained.
+
 ## Notes
 
 Make sure you change `Preferences > Editor > Color Scheme > Scheme` to "Darcula Liquid" if it doesn't change automatically
